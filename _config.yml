@@ -35,10 +35,17 @@ jekyll-archives:
   enabled:
     - categories
     - tags
+    - year
+    - month
   layout: 'archive'
+  layouts:
+    year: 'year_archive'
+    month: 'month_archive'
   permalinks:
     category: '/category/:name/'
     tag: '/tag/:name/'
+    year: '/archive/:year/'
+    month: '/archive/:year/:month/'
 
 # Social icons
 social:
