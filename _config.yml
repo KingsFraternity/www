@@ -1,12 +1,46 @@
 title: Kings Fraternity
+subtitle: "Brotherhood, Leadership, and Community"
 email: contact@kingsfraternity.org
 description: >-
   The official website of Kings Fraternity — brotherhood, leadership, and community.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: KingsFraternity
 
 # Build settings
-theme: minima
+remote_theme: bencentra/centrarium
+markdown: kramdown
+inter_post_navigation: true
+highlightjs_theme: "monokai-sublime"
+
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+
+# Pagination settings
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: "/page/:num/"
+  sort_reverse: true
+
+# Archive settings
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+# Social icons
+social:
+  - name: GitHub
+    icon: github
+    username: KingsFraternity
+    url: https://github.com/KingsFraternity
+    desc: Find us on GitHub
+    share: false
