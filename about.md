@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+category: page
+main_nav: true
 ---
 
 Kings Fraternity is a community built on brotherhood, leadership, and service.
