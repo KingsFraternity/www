@@ -57,3 +57,24 @@ body {
 hr {
   border-color: $kf-gold-light;
 }
+
+/* Posts archive page */
+.tag-cloud {
+  margin-bottom: 1.5rem;
+
+  .tag-link {
+    display: inline-block;
+    margin: 0.2rem 0.3rem;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid $kf-maroon;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    color: $kf-maroon;
+
+    &:hover {
+      background-color: $kf-maroon;
+      color: $kf-gold;
+      text-decoration: none;
+    }
+  }
+}
