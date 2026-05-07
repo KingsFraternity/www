@@ -11,3 +11,48 @@
   "neat/neat",
   "layout"
 ;
+
+/* Kings Fraternity color palette */
+$kf-maroon: #6b1e2b;
+$kf-maroon-dark: #4d1520;
+$kf-gold: #c9a227;
+$kf-gold-light: #e1c35a;
+
+body {
+  a {
+    color: $kf-maroon;
+
+    &:hover,
+    &:focus {
+      color: $kf-gold;
+    }
+  }
+}
+
+.site-header-container,
+.site-nav,
+.site-footer {
+  background-color: $kf-maroon;
+}
+
+.site-header .title,
+.site-header .subtitle,
+.site-nav a,
+.site-footer,
+.site-footer a {
+  color: $kf-gold;
+}
+
+.pagination .fa-square,
+.post-categories a:hover,
+.post-link:hover {
+  color: $kf-gold;
+}
+
+.post-link {
+  color: $kf-maroon;
+}
+
+hr {
+  border-color: $kf-gold-light;
+}
