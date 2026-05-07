@@ -33,7 +33,7 @@ main_nav: true
     {% for post in year.items %}
     <li>
       <strong><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
-      <span class="post-date"> &mdash; {{ post.date | date: "%B %-d" }}</span>
+      <span class="post-date"> &mdash; {{ post.date | date: "%B %-d, %Y" }}</span>
     </li>
     {% endfor %}
   </ul>
