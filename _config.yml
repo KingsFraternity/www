@@ -9,6 +9,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 remote_theme: bencentra/centrarium
 markdown: kramdown
+
+# Suppress Dart Sass deprecation warnings from third-party SCSS (Bourbon 4.x)
+sass:
+  quiet_deps: true
 inter_post_navigation: true
 highlightjs_theme: "monokai-sublime"
 
