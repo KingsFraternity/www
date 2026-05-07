@@ -1,0 +1,12 @@
+title: Kings Fraternity
+email: contact@kingsfraternity.org
+description: >-
+  The official website of Kings Fraternity — brotherhood, leadership, and community.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: KingsFraternity
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
